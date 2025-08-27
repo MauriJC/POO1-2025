@@ -1,8 +1,8 @@
-package primeraClase;
+package _01_introduccion;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
-public class ejercicio2 {
+public class Ejercicio2 {
     // Suma dos números enteros ingresados por el usuario
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

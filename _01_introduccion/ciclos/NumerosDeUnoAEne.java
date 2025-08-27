@@ -1,8 +1,8 @@
-package primeraClase.ciclos;
+package _01_introduccion.ciclos;
 
 import java.util.Scanner;
 
-class numerosDeUnoAEne {
+class NumerosDeUnoAEne {
 
     public static void main(String[] args) {
 

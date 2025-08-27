@@ -1,9 +1,10 @@
-package primeraClase;
+package _01_introduccion;
+
 import java.util.Scanner;
 
-public class ejercicio4 {
+public class Ejercicio4 {
     // Determina si un número entero ingresado por el usuario es par o impar
-   public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese un número: ");
         int n = sc.nextInt();

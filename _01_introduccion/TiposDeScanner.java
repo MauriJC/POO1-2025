@@ -1,4 +1,5 @@
-package primeraClase;
+package _01_introduccion;
+
 import java.util.Scanner;
 
 /*
@@ -14,19 +15,19 @@ import java.util.Scanner;
  *    - Solución: usar nextLine() después de métodos que no consumen \n
  */
 
-public class tiposDeScanner {
+public class TiposDeScanner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         // --- Leer String ---
         System.out.print("Ingrese su nombre completo: ");
-        String nombre = sc.nextLine();  // toda la línea - CONSUME el \n
+        String nombre = sc.nextLine(); // toda la línea - CONSUME el \n
         System.out.println("Hola, " + nombre + "!");
 
         System.out.print("Ingrese su primer nombre: ");
-        String primerNombre = sc.next();  // solo hasta el primer espacio - NO CONSUME el \n
+        String primerNombre = sc.next(); // solo hasta el primer espacio - NO CONSUME el \n
         System.out.println("Primer nombre: " + primerNombre);
-        
+
         // IMPORTANTE: Limpiar el buffer después de sc.next()
         sc.nextLine(); // Consume el salto de línea restante (\n)
 

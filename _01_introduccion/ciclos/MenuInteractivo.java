@@ -1,8 +1,8 @@
-package primeraClase.ciclos;
+package _01_introduccion.ciclos;
 
 import java.util.Scanner;
 
-public class menuInteractivo {
+public class MenuInteractivo {
     public static void main(String[] args) {
         int opcion;
         Scanner sc = new Scanner(System.in);

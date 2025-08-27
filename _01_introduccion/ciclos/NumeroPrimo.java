@@ -1,24 +1,21 @@
-package primeraClase;
+package _01_introduccion.ciclos;
 
 import java.util.Scanner;
 
-public class ejercicio5 {
-    // Ejercicio de numeros primos
+public class NumeroPrimo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Ingrese un número: ");
         int n = sc.nextInt();
-
-        boolean esPrimo = true; // asumimos que es primo
+        boolean esPrimo = true;
 
         if (n <= 1) {
-            esPrimo = false; // 0 y 1 no son primos
+            esPrimo = false;
         } else {
             for (int i = 2; i < n; i++) {
                 if (n % i == 0) {
-                    esPrimo = false; // encontramos un divisor
-                    break; // no hace falta seguir
+                    esPrimo = false;
+                    break;
                 }
             }
         }
@@ -28,7 +25,5 @@ public class ejercicio5 {
         } else {
             System.out.println(n + " no es primo");
         }
-
-        sc.close(); // opcional si no se leen más datos
     }
 }

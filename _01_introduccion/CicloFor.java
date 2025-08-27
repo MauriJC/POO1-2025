@@ -1,6 +1,6 @@
-package primeraClase;
+package _01_introduccion;
 
-public class cicloFor {
+public class CicloFor {
 
     public static void main(String[] args) {
 

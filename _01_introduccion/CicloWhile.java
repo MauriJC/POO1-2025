@@ -1,6 +1,6 @@
-package primeraClase;
+package _01_introduccion;
 
-public class cicloWhile {
+public class CicloWhile {
     // while (condición) {
     // instrucciones a repetir
     // }

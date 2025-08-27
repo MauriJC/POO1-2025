@@ -1,6 +1,6 @@
-package primeraClase.ciclos;
+package _01_introduccion.ciclos;
 
-public class pares {
+public class Pares {
     public static void main(String[] args) {
         // Imprimir números pares del 1 al 10 usando for
         System.out.println("Números pares del 1 al 10 (for):");

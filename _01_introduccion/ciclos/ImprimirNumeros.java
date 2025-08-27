@@ -1,6 +1,6 @@
-package primeraClase.ciclos;
+package _01_introduccion.ciclos;
 
-public class imprimirNumeros {
+public class ImprimirNumeros {
     public static void main(String[] args) {
         // Con for
         for (int i = 1; i <= 10; i++) {

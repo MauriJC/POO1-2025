@@ -1,8 +1,8 @@
-package primeraClase.ciclos;
+package _01_introduccion.ciclos;
 
 import java.util.Scanner;
 
-public class promedioDeNotas {
+public class PromedioDeNotas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
