@@ -1,0 +1,15 @@
+{
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.import.generatesMetadataFilesAtProjectRoot": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.factorypath": true,
+    "**/.settings": true
+  }
+}
