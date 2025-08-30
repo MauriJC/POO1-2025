@@ -13,9 +13,14 @@ public class MetodosSinTipo {
         System.out.println("¡Hola, " + nombre + "!");
     }
 
+    public static void saludarClase(String nombreDeLaClase) {
+        System.out.println("¡Hola, clase " + nombreDeLaClase + "!");
+    }
+
     public static void main(String[] args) {
         // Llamamos directamente al método sin crear objeto
-        MetodosSinTipo.saludar("Mauricio");
+        // MetodosSinTipo.saludar("Mauricio");
+        MetodosSinTipo.saludarClase("POO 1");
     }
 
 }

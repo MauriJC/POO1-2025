@@ -17,7 +17,7 @@ public class PromedioDeNotas {
         for (int i = 1; i <= n; i++) {
             System.out.print("Ingrese nota " + i + ": ");
             double nota = sc.nextDouble();
-            sumaNotas += nota;
+            sumaNotas = sumaNotas + nota; // sumaNotas += nota;
         }
         double promedio = sumaNotas / n;
         System.out.println("El promedio es: " + promedio);

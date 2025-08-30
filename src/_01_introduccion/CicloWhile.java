@@ -9,7 +9,7 @@ public class CicloWhile {
         int i = 1;
         while (i <= 5) {
             System.out.println("Número: " + i);
-            i++; // incrementar manualmente
+            i = i + 1; // incrementar manualmente
         }
     }
 }
