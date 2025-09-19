@@ -7,16 +7,16 @@ public class Main {
 
         // System.out.println("El resultado de la suma es: " + resultadoSuma);
 
-        /*
-         * Alumno al = new Alumno();
-         * al.nombre = "Juan";
-         * al.nota = 7.5;
-         * al.imprimirEstado();
-         * 
-         * Alumno al2 = new Alumno();
-         * al2.nombre = "Ana";
-         * al2.nota = 5.9;
-         * al2.imprimirEstado();
+        /* 
+         Alumno al = new Alumno();
+          al.nombre = "Juan";
+          al.nota = 7.5;
+          al.imprimirEstado();
+          
+          Alumno al2 = new Alumno();
+          al2.nombre = "Ana";
+          al2.nota = 5.9;
+          al2.imprimirEstado();
          */
 
         Tienda tienda = new Tienda();
