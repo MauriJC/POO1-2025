@@ -12,11 +12,4 @@ public class Persona {
     public static void despedirse() {
         System.out.println("Adiós!");
     }
-
-    public Persona(String nombre, int edad) {
-        this.nombre = nombre;
-        this.edad = edad;
-        saludar();
-        despedirse();
-    }
 }
