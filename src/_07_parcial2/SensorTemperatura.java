@@ -1,4 +1,4 @@
-package _07_parcial2;
+package _07_parcial2;// Borrar esta linea
 
 public class SensorTemperatura {
     private int idSensor;

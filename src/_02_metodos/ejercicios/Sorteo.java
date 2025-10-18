@@ -8,7 +8,7 @@ public class Sorteo {
         // resultado = (int) (Math.random() * 7) + 1;
         // System.out.println("Número ganador: " + resultado);
 
-        int array[] = { 1, 2, 3, 4, 5, 6 };
+        int array[] = { 1, 2, 3, 4 };
 
         Random rand = new Random();
 
