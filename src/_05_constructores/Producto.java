@@ -5,8 +5,8 @@ public class Producto {
     private double precio;
 
     public Producto(String nombre, double precio) {
-        // this.nombre = nombre; //<= Rompe encapsulamiento
-        // this.precio = precio;
+        // nombre = nombre; // <= Rompe encapsulamiento
+        // precio = precio;
         setNombre(nombre);
         setPrecio(precio);
     }
